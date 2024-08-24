@@ -1,0 +1,17 @@
+location_coor:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/location_coords.csv
+
+locations:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/locations.csv
+
+wowah_data:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/wowah_data.csv
+
+zones:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/zones.csv
+
+
