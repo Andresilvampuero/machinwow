@@ -1,6 +1,3 @@
-location_coor:
-  type: pandas.CSVDataset
-  filepath: data/01_raw/location_coords.csv
 
 locations:
   type: pandas.CSVDataset
@@ -15,3 +12,34 @@ zones:
   filepath: data/01_raw/zones.csv
 
 
+processed_wowah_data:
+  type: pandas.CSVDataset
+  filepath: data/03_processed/processed_wowah_data.csv
+
+cleaned_locations:
+  type: pandas.CSVDataset
+  filepath: data/03_processed/cleaned_locations.csv
+
+cleaned_wowah_data:
+  type: pandas.CSVDataset
+  filepath: data/03_processed/cleaned_wowah_data.csv
+
+cleaned_zones:
+  type: pandas.CSVDataset
+  filepath: data/03_processed/cleaned_zones.csv
+
+cleaned_zones1:
+  type: pandas.CSVDataset
+  filepath: data/03_processed/cleaned_zones1.csv
+
+cleaned_zones2:
+  type: pandas.CSVDataset
+  filepath: data/03_processed/cleaned_zones2.csv
+
+zones_procesado:
+  type: pandas.CSVDataset
+  filepath: data/03_processed/zones_procesado.csv
+
+wowah_data_procesado:
+  type: pandas.CSVDataset
+  filepath: data/03_processed/wowah_data_procesado.csv
