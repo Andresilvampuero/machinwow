@@ -1,7 +1,7 @@
 
 ![Logo](https://raw.githubusercontent.com/kedro-org/kedro-brand-identity/main/horizontal/color/kedro-horizontal-color-on-light.svg)
 
-Para poder entrar y ejecutar este proyecto Kedro, se mostrarán las instrucciones o pasos a seguir configurar el entorno y correr los pipelines.
+Para poder entrar y ejecutar este proyecto Kedro, se mostrarán las instrucciones o pasos a seguir para configurar el entorno y correr los pipelines.
 
 Instrucciones de instalación
 =======================================
