@@ -12,61 +12,61 @@ Instrucciones de instalación
 Clona o descarga este repositorio en tu máquina local.
 
 ( Tambien puedes clonar este repositorio directamente ) 
-```http
+```bash
   git clone https://github.com/Andresilvampuero/machinwow.git
 ```
 
 **Abrir el proyecto en un editor de código :** Utiliza tu editor de código preferido (VS Code, PyCharm, etc.).
 
 **Crear un entorno virtual :** Usar un entorno virutal es recomendable para no corromper otros proyectos dentro de un sistema
-```http
+```bash
   python -m venv [nombre_entorno]
 ```
 
 **Activar el entorno virtual :** Hacer funcionar el entorno virtual
-```http
+```bash
   .\.venv\Scripts\activate
 ```
 
 **Entra a tu entorno virtual :** 
-```http
+```bash
   cd [nombre_entorno]
 ```
 **Instalar Kedro :**
-```http
+```bash
   pip install kedro
 ```
 
 ***(Opcional) Instalar Jupyter Notebook :*** Para visualizar mejor los notebook
-```http
+```bash
   pip install jupyter
 ```
 
 **Cargar el proyecto en el entorno virtual:** Si no se prefiere clonar el repositorio cargamos manualmente el proyecto
 
 **Entrar al proyecto raiz:** 
-```http
+```bash
   cd machinwow
 ```
 **Entrar al proyecto kedro:** 
-```http
+```bash
   cd wow
 ```
 
 **Dependencias:** Se instalarán las dependecias necesarias para correr este proyecto
 los notebook
-```http
+```bash
   pip install -r requirements.txt
 ```
 
 **Correr los pipelines del proyecto:**
 los notebook
-```http
+```bash
   kedro run
 ```
 
 ***(Opcional) Visualizar el notebook en localhost:*** Si deseas trabajar con notebooks en Jupyter, ejecuta el siguiente comando:
-```http
+```bash
   kedro jupyter notebook
 ```
 ## MacOS
@@ -75,61 +75,61 @@ los notebook
 Clona o descarga este repositorio en tu máquina local.
 
 *( Tambien puedes clonar este repositorio directamente )*
-```http
+```bash
   git clone https://github.com/Andresilvampuero/machinwow.git
 ```
 
 **Abrir el proyecto en un editor de código :** Utiliza tu editor de código preferido (VS Code, PyCharm, etc.).
 
 **Crear un entorno virtual :** Usar un entorno virutal es recomendable para no corromper otros proyectos dentro de un sistema
-```http
+```bash
   python3 -m venv [nombre_entorno]
 ```
 
 **Activar el entorno virtual :** Hacer funcionar el entorno virtual
-```http
+```bash
   source [nombre_entorno]/bin/activate
 ```
 
 **Entra a tu entorno virtual :** 
-```http
+```bash
   cd [nombre_entorno]
 ```
 **Instalar Kedro :**
-```http
+```bash
   pip install kedro
 ```
 
 ***(Opcional) Instalar Jupyter Notebook :*** Para visualizar mejor los notebook
-```http
+```bash
   pip install jupyter
 ```
 
 **Cargar el proyecto en el entorno virtual:** Si no se prefiere clonar el repositorio cargamos manualmente el proyecto
 
 **Entrar al proyecto raiz:** 
-```http
+```bash
   cd machinwow
 ```
 
 **Entrar al proyecto kedro:** 
-```http
+```bash
   cd wow
 ```
 
 **Dependencias:** Se instalarán las dependecias necesarias para correr este proyecto
 los notebook
-```http
+```bash
   pip install -r requirements.txt
 ```
 **Correr los pipelines del proyecto:**
 los notebook
-```http
+```bash
   kedro run
 ```
 
 ***(Opcional) Visualizar el notebook en localhost:*** Si deseas trabajar con notebooks en Jupyter, ejecuta el siguiente comando:
-```http
+```bash
   kedro jupyter notebook
 ```
 
@@ -143,16 +143,16 @@ los notebook
 ## Posibles Errores
 
 - Verificar si está instalado python
-```http
+```bash
   python --version
 ```
 - Verificar si está instalado kedro
-```http
+```bash
   kedro info
 ```
 - Problemas de privacidad :
 Ingresar al PowerShell o algun interfaz de consola con permisos de administrador
-```http
+```bash
   set-executionpolicy unrestricted
 ```
 
